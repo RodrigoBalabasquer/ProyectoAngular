@@ -1,0 +1,21 @@
+<!--<p>
+  login works!
+</p>-->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <div class="container">
+    <div class="row">
+  <h1 class="list-group-item-heading">Ingresar:</h1>
+  <br>
+  <h4 class="list-group-item-heading">Usuario:</h4>
+  <input  [(ngModel)] ="usuario" class="form-control input-sm chat-input" type="text"  name="usuario"/>
+  <br>
+  <h4 class="list-group-item-heading">Contraseña:</h4>
+  <input [(ngModel)] ="pass" class="form-control input-sm chat-input" type="password" name="contraseña"  placeholder="Pass"/>
+  <br>
+  <div class="wrapper">
+  <span class="group-btn">     
+                <a href="#" (click)="Entrar()" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
+  </span>
+  </div>
+  </div>
+</div>
